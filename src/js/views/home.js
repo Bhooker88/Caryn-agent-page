@@ -30,7 +30,7 @@ const Home = () => {
                 <a href={calendlyLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Schedule A Meeting</a>
                 </div> */}
 
-                        <p><a href="mailto:carynlynne416@gmail.com?subject=Inquiry&body=Hi Caryn,">Email me</a> Use the link or send me an Email at carynlynn416@gmail.com</p>
+                        <p><a href="mailto:carynlynne416@gmail.com?subject=Inquiry&body=Hi Caryn,">Email me</a> Use the link or send me an Email at carynlynne416@gmail.com</p>
                         <p>Phone- Call or Text : 989-737-0803</p>
 
         
