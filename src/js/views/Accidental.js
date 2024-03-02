@@ -7,6 +7,10 @@ import '../../styles/CommonStyles.css';
 const Accidental = () => {
     
     // const calendlyLink = "https://calendly.com/thooker86/work-appointments";
+const accidentalEmail = "mailto:carynlynne416@gmail.com?subject=Inquiry%20about%20$2,000%20Accidental%20Death%20and%20Dismemberment%20Certificate&body=Hi%20Caryn,";
+
+// Use accidentalCalendlyLink and accidentalEmail in your <a> tags respectively
+
     return (
         <div className="accidental-container">
             
@@ -22,7 +26,8 @@ const Accidental = () => {
                 <h2>Claim Your Free Certificate</h2>
                 <p>To receive your free $2,000 Accidental Death and Dismemberment Certificate, please contact Caryn:</p>
                 <ul>
-                <li><a href="mailto:carynlynne416@gmail.com?subject=Inquiry&body=Hi Caryn,">Email me</a> Use the link or send me an Email at carynlynne416@gmail.com</li>
+                <li><a href={accidentalEmail}>Email me</a> Use the link or send me an Email at carynlynne416@gmail.com</li>
+
                         <li>Phone- Call or Text : 989-737-0803</li>
                 </ul>
                 {/* <p>Or schedule a meeting directly to learn more:</p>

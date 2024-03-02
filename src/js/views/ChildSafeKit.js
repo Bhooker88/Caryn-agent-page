@@ -5,6 +5,7 @@ import '../../styles/CommonStyles.css';
 
 const ChildSafeKit = () => {
     // const calendlyLink = "https://calendly.com/thooker86/work-appointments";
+    const freeChildSafeKitEmail = "mailto:carynlynne416@gmail.com?subject=Inquiry%20about%20Child%20Safe%20Kit&body=Hi%20Caryn,";
     return (
         <div className="childsafe-container">
             <h1>Protect Your Children with the Child Safe Kit App</h1>
@@ -31,7 +32,7 @@ const ChildSafeKit = () => {
                 <div className="contact-info">
                     <p>To get started and receive your free activation code, please contact Caryn:</p>
                     <ul>
-                        <li><a href="mailto:carynlynne416@gmail.com?subject=Inquiry&body=Hi Caryn,">Email me</a> Use the link or send me an Email at carynlynne416@gmail.com</li>
+                    <li><a href={freeChildSafeKitEmail}>Email me</a> Use the link or send me an Email at carynlynne416@gmail.com</li>
                         <li>Phone- Call or Text : 989-737-0803</li>
                     </ul>
                     {/* <p>Or schedule a meeting directly:</p>

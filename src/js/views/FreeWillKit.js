@@ -5,6 +5,7 @@ import '../../styles/CommonStyles.css';
 
 const FreeWillKit = () => {
     // const calendlyLink = "https://calendly.com/thooker86/work-appointments";
+    const freeWillKitEmail = "mailto:carynlynne416@gmail.com?subject=Inquiry%20about%20Free%20Will%20Kit&body=Hi%20Caryn,";
     return (
         <div className="freewill-container">
             
@@ -22,7 +23,7 @@ const FreeWillKit = () => {
                 <h2>Get Started Today</h2>
                 <p>To receive your Free Will Kit and start the process, please contact Caryn:</p>
                 <ul>
-                <li><a href="mailto:carynlynne416@gmail.com?subject=Inquiry&body=Hi Caryn,">Email me</a> Use the link or send me an Email at carynlynne416@gmail.com</li>
+                <li><a href={freeWillKitEmail}>Email me</a> Use the link or send me an Email at carynlynne416@gmail.com</li>
                         <li>Phone- Call or Text : 989-737-0803</li>
                 </ul>
                 {/* <p>Or schedule a meeting directly:</p>
