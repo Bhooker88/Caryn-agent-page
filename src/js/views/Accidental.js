@@ -6,7 +6,7 @@ import '../../styles/CommonStyles.css';
 
 const Accidental = () => {
     
-    const calendlyLink = "https://calendly.com/thooker86/work-appointments";
+    // const calendlyLink = "https://calendly.com/thooker86/work-appointments";
     return (
         <div className="accidental-container">
             
@@ -20,13 +20,13 @@ const Accidental = () => {
             
             <div className="contact-info">
                 <h2>Claim Your Free Certificate</h2>
-                <p>To receive your free $2,000 Accidental Death and Dismemberment Certificate, please contact me:</p>
+                <p>To receive your free $2,000 Accidental Death and Dismemberment Certificate, please contact Caryn:</p>
                 <ul>
-                    <li>Email: thooker@globeserur.com</li>
-                    <li>Phone: 989-295-3501</li>
+                <li><a href="mailto:carynlynne416@gmail.com?subject=Inquiry&body=Hi Caryn,">Email me</a> Use the link or send me an Email at carynlynne416@gmail.com</li>
+                        <li>Phone- Call or Text : 989-737-0803</li>
                 </ul>
-                <p>Or schedule a meeting directly to learn more:</p>
-                <a href={calendlyLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Schedule A Meeting</a>
+                {/* <p>Or schedule a meeting directly to learn more:</p>
+                <a href={calendlyLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Schedule A Meeting</a> */}
                 <div className="navigation-back">
                 <Link to="/" className="back-to-home">← Back to Home</Link>
             </div>

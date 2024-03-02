@@ -40,9 +40,50 @@
 }
 
 .offers-section a {
-    color: #007bff; /* Bootstrap primary color for links */
+    color: white; /* Change text color to white for contrast */
+    background-color: #007bff; /* Initial background color */
+    padding: 10px 20px; /* Add padding to increase size */
+    border-radius: 5px; /* Rounded corners for button-like appearance */
+    display: inline-block; /* Ensure the links are formatted as blocks */
+    text-align: center; /* Ensure text is centered */
+    width: auto; /* Auto width based on content */
+    margin: 0; /* Reset margin */
     text-decoration: none; /* No underline */
-    font-weight: bold; /* Make the link text bold */
+    position: relative; /* Needed for absolute positioning of pseudo-element */
+    overflow: hidden; /* Ensures pseudo-element does not extend beyond button */
+}
+
+.offers-section a {
+    color: white; /* Change text color to white for contrast */
+    background-color: #007bff; /* Initial background color */
+    padding: 10px 20px; /* Add padding to increase size */
+    border-radius: 5px; /* Rounded corners for button-like appearance */
+    display: inline-block; /* Ensure the links are formatted as blocks */
+    text-align: center; /* Ensure text is centered */
+    width: auto; /* Auto width based on content */
+    margin: 0; /* Reset margin */
+    text-decoration: none; /* No underline */
+    position: relative; /* Needed for absolute positioning of pseudo-element */
+    overflow: hidden; /* Ensures pseudo-element does not extend beyond button */
+    z-index: 1; /* Make sure the link itself is above the pseudo-element */
+}
+
+.offers-section a::before {
+    content: ""; /* Necessary for pseudo-elements */
+    background-image: linear-gradient(45deg, #0056b3, #0088ff); /* Gradient background */
+    position: absolute; /* Position relative to the anchor */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px; /* Match the border radius of the button */
+    opacity: 0; /* Start fully transparent */
+    transition: opacity 0.3s ease; /* Smooth transition for the opacity */
+    z-index: -1; /* Ensure the gradient is behind the text */
+}
+
+.offers-section a:hover::before {
+    opacity: 1; /* Fully visible on hover */
 }
 
 /* Adjustments for agent photo and introduction */
