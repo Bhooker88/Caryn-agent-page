@@ -16,6 +16,15 @@ const FreeWillKit = () => {
             <p>
                 Additionally, a living will ensures your healthcare wishes are followed in situations where you can't communicate. Appointing someone you trust to advocate for you can significantly ease your family's burden during challenging times.
             </p>
+            <div className="why-this-matters">
+                <h2>Why This Matters</h2>
+                <p>
+                    Imagine the emotional turmoil your loved ones would face, navigating through grief while being burdened with the uncertainty of your final wishes. Without a will, they are left to guess at crucial decisions, from the distribution of your assets to the type of care you would have wanted. This uncertainty can lead to family disputes, legal headaches, and additional stress during an already difficult time.
+                </p>
+                <p>
+                    By articulating your wishes now, you provide them not only with clarity, but with a significant emotional reprieve. They can focus on mourning and healing rather than being caught up in preventable confusion and conflict.
+                </p>
+            </div>
             <p>
                 Consulting a lawyer for these documents can be expensive and time-consuming. Our Free Will Kit simplifies this process. By scheduling a meeting, we guide you step-by-step, saving time and money while providing peace of mind.
             </p>
